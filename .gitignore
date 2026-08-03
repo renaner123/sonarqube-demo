@@ -1,0 +1,57 @@
+# ================================
+# Segredos e variáveis de ambiente
+# ================================
+.env
+.env.local
+.env.*.local
+
+# ================================
+# Backend — Java / Maven
+# ================================
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/*.iml
+!backend/.mvn/wrapper/maven-wrapper.properties
+
+# ================================
+# Frontend — Node / Vue / Vite
+# ================================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# ================================
+# SonarQube
+# ================================
+.scannerwork/
+backend/.scannerwork/
+frontend/.scannerwork/
+
+# ================================
+# IDEs
+# ================================
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ================================
+# Sistema operacional
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Docker
+# ================================
+docker-compose.override.yml
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
