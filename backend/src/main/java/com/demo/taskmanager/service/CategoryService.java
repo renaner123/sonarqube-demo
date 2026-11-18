@@ -23,6 +23,7 @@ public class CategoryService {
     private final TaskRepository taskRepository;
 
     public List<CategoryResponse> findAllByUser(Long userId) {
+        System.out.println("Buscando categorias");
         return categoryRepository.findByUserId(userId).stream()
                 .map(this::toResponse)
                 .toList();
