@@ -25,7 +25,7 @@
             ou passados na linha de comando:
               mvn sonar:sonar -Dsonar.token=<token> -Dsonar.host.url=http://localhost:9000
         -->
-        <sonar.projectKey>taskmanager-backend</sonar.projectKey>
+        <sonar.projectKey>asktmanager-backend</sonar.projectKey>
         <sonar.projectName>Task Manager Backend</sonar.projectName>
         <sonar.coverage.jacoco.xmlReportPaths>
             target/site/jacoco/jacoco.xml
